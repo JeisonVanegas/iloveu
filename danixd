@@ -1,0 +1,37 @@
+
+< html >
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < título > Daniela, Me crees que te amo? < 3</ título >
+    < meta  name = " viewport " content = " width = device-width, user-scalable = no, initial-scale = 1.0, maximum-scale = 1.0, minimum-scale = 1.0 " >
+    < link  rel = " stylesheet " href = " main.css " >
+    < script  src = " https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js " > </ script >
+    < guión >
+        $ ( documento ) . listo ( función ( ) {
+            $ ( '.p1' ) . hover ( function ( ) {
+                arriba  =  Matemáticas . aleatorio ( ) * ( 400 - 1 )  + 1 ;
+                abajo  =  Matemáticas . aleatorio ( )  *  ( 609 - 1 )  + 1 ;
+              $ ( esto ) . css ( 'arriba' ,  arriba ) ;
+              $ ( esto ) . css ( 'izquierda' ,  abajo ) ;
+            } ) ;
+        } ) ;
+    función  dijoSi ( ) {
+        documento . getElementById ( 'si' ) . estilo . display  =  'bloque' ;
+    }
+    </ script >
+</ cabeza >
+< cuerpo >
+    < div  class = " contenedor " >
+        < div  class = " titulo " >
+            < h1 > Daniela, Me crees que te amo? < 3</ h1 >
+        </ div >
+        < div  class = " opciones " >
+            < p  class = " p1 " > No </ p >
+            < p  onclick = " dijoSi () " class = " p2 " > Si </ p >
+            < div  id = " si " >
+                < h2 > Gracias bb, lo sabía.Te amo mucho 7u7 </ h2 >
+            </ div >
+        </ div >
+    </ div >
+</ cuerpo >
+</ html >
